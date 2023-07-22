@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mains{
+    display: flex;
+    
+}
+
+.First{
+    width: 50vw;
+    height: 100vh;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 20px;
+
+}
+
+.Second{
+    width: 50vw;
+    height: 100vh;
+}
+.back{
+  position: absolute;
+  z-index: -10;
+}
+.front-card{
+    background: url("./images/bg-card-front.png");
+    height: 300px;
+    width: 500px;
+background-size: cover;
+background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 50px;
+
+}
+.back-card{
+    background: url("./images/bg-card-back.png");
+    height: 300px;
+    width: 500px;
+background-size: cover;
+background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.infos{
+    padding-top: 120px;
+}
+.infos2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.names{
+    color: white;
+   line-height: 0.5rem;
+   word-spacing: 5px;
+   letter-spacing: 5px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+}
+
+.names1{
+    color: white; 
+    word-spacing: 5px;
+    letter-spacing: 4px; 
+     font-size: 20px;
+     list-style-type:none;
+     padding-bottom: 20px;
+}
+
+.names2{
+    color: white; 
+    word-spacing: 5px;
+    letter-spacing: 4px; 
+     font-size: 20px; 
+     list-style-type: none;
+     padding-bottom: 20px;
+}
+.cvcs{
+    
+    padding-top: 135px;
+    padding-left: 420px;
+    color: white;
+    font-size: 25px;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+form input {
+    border:2px solid gainsboro;
+    padding: 4px;
+    width: 350px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center ;
+    margin: auto;
+    margin-top: 180px;
+    padding-left: 80px;
+}
+.date_cvc{
+    display: flex;
+    gap: 30px;
+}
+.mon{
+    height:30px;
+    width: 150px;
+  
+}
+
+.cv{
+    height: 30px;
+    width: 160px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 358px;
+    border-radius: 8px;
+    font-size: 20px;
+letter-spacing: 2px;
+
+}
+.img-1{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
